@@ -50,23 +50,23 @@ function Home1() {
       </div>
 
       {/* صورة الخلفية مع البطاقة العائمة */}
-      <div className="w-full max-sm:w-[50%] xl:w-[60%] relative  ">
+      <div className="w-full  xl:w-[60%] relative  ">
         {/* البطاقة العائمة */}
-        <div className="flex flex-col bg-[#282b26] w-[50%] sm:w-[60%] md:w-[40%] lg:w-[25%] p-4 rounded-3xl absolute top-20 left-80  shadow-xl z-10 max-lg:left-0">
+        <div className="flex flex-col bg-[#282b26]  sm:w-[60%] md:w-[40%] lg:w-[25%] p-4 rounded-3xl absolute top-20 left-80  shadow-xl z-10 max-lg:left-0">
           <div className="flex items-center justify-between">
             <p className="text-gray-500">Location</p>
             <X className="text-white cursor-pointer hover:text-red-400" size={20} />
           </div>
-          <p className="text-xl font-bold text-amber-50 mt-1">Aguas Calientes</p>
+          <p className="text-xl max-lg:text-lg font-bold text-amber-50 mt-1">Aguas Calientes</p>
 
-          <div className="flex justify-between mt-4">
+          <div className="flex gap-10 mt-4">
             <div className="flex flex-col gap-1">
               <p className="text-gray-500">Distance</p>
-              <p className="text-xl font-bold text-amber-50">178.26m</p>
+              <p className="text-xl max-lg:text-lg font-bold text-amber-50">178.26m</p>
             </div>
             <div className="flex flex-col gap-1">
               <p className="text-gray-500">Elevation</p>
-              <p className="text-xl font-bold text-amber-50">2.045km</p>
+              <p className="text-xl max-lg:text-lg font-bold text-amber-50">2.045km</p>
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ function Home1() {
         <div className="ml-20" >
            <img
           src="hero.png"
-          className="w-full h-auto lg:ml-30 "
+          className="w-full max-lg:scale-125 h-auto lg:ml-30 "
           alt="Camp Background"
         />
         </div>
