@@ -50,7 +50,7 @@ function Home1() {
       </div>
 
       {/* صورة الخلفية مع البطاقة العائمة */}
-      <div className="w-full xl:w-[60%] relative  ">
+      <div className="w-full max-sm:w-[50%] xl:w-[60%] relative  ">
         {/* البطاقة العائمة */}
         <div className="flex flex-col bg-[#282b26] w-[50%] sm:w-[60%] md:w-[40%] lg:w-[25%] p-4 rounded-3xl absolute top-20 left-80  shadow-xl z-10 max-lg:left-0">
           <div className="flex items-center justify-between">
